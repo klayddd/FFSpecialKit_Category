@@ -24,6 +24,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		9F7E25AAEA24AABF132ED40A /* Pods_FFSpecialKit_Category_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47546D7DA6F2B4ECF173AAF2 /* Pods_FFSpecialKit_Category_Tests.framework */; };
+		AEF99FB322180DD60047CA57 /* CTMediator+Special.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF99FB222180DD60047CA57 /* CTMediator+Special.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		191C79C002E0CFFDB58F6228 /* Pods-FFSpecialKit_Category_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFSpecialKit_Category_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FFSpecialKit_Category_Tests/Pods-FFSpecialKit_Category_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		392472D5B74D9FCB3B311DBA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		392472D5B74D9FCB3B311DBA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		47546D7DA6F2B4ECF173AAF2 /* Pods_FFSpecialKit_Category_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFSpecialKit_Category_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* FFSpecialKit_Category_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFSpecialKit_Category_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,11 +62,13 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71889603576AC8ECC0F991F5 /* Pods_FFSpecialKit_Category_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFSpecialKit_Category_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7DB9F64FF202E5957E58E788 /* FFSpecialKit_Category.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FFSpecialKit_Category.podspec; path = ../FFSpecialKit_Category.podspec; sourceTree = "<group>"; };
+		7DB9F64FF202E5957E58E788 /* FFSpecialKit_Category.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FFSpecialKit_Category.podspec; path = ../FFSpecialKit_Category.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A5340E507EB36C0DF89FE16 /* Pods-FFSpecialKit_Category_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFSpecialKit_Category_Example.release.xcconfig"; path = "Target Support Files/Pods-FFSpecialKit_Category_Example/Pods-FFSpecialKit_Category_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AEF99FB122180DD60047CA57 /* CTMediator+Special.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+Special.h"; sourceTree = "<group>"; };
+		AEF99FB222180DD60047CA57 /* CTMediator+Special.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+Special.m"; sourceTree = "<group>"; };
 		DDE0E229F83119997048A0D0 /* Pods-FFSpecialKit_Category_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFSpecialKit_Category_Tests.release.xcconfig"; path = "Target Support Files/Pods-FFSpecialKit_Category_Tests/Pods-FFSpecialKit_Category_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E6C5EB2AE672C91C974337D3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E6C5EB2AE672C91C974337D3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EAED72547258EFFA65296E6D /* Pods-FFSpecialKit_Category_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFSpecialKit_Category_Example.debug.xcconfig"; path = "Target Support Files/Pods-FFSpecialKit_Category_Example/Pods-FFSpecialKit_Category_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +106,6 @@
 				191C79C002E0CFFDB58F6228 /* Pods-FFSpecialKit_Category_Tests.debug.xcconfig */,
 				DDE0E229F83119997048A0D0 /* Pods-FFSpecialKit_Category_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,6 +146,7 @@
 		6003F593195388D20070C39A /* Example for FFSpecialKit_Category */ = {
 			isa = PBXGroup;
 			children = (
+				AEF99FB022180DB60047CA57 /* FFSpecialKit_Category */,
 				6003F59C195388D20070C39A /* FFAppDelegate.h */,
 				6003F59D195388D20070C39A /* FFAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -197,6 +200,15 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		AEF99FB022180DB60047CA57 /* FFSpecialKit_Category */ = {
+			isa = PBXGroup;
+			children = (
+				AEF99FB122180DD60047CA57 /* CTMediator+Special.h */,
+				AEF99FB222180DD60047CA57 /* CTMediator+Special.m */,
+			);
+			path = FFSpecialKit_Category;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -248,6 +260,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = stevenJiechen;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 6XFMJ2CZ69;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -326,13 +341,25 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-FFSpecialKit_Category_Example/Pods-FFSpecialKit_Category_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
+				"${BUILT_PRODUCTS_DIR}/FFAPIsKit/FFAPIsKit.framework",
 				"${BUILT_PRODUCTS_DIR}/FFSpecialKit_Category/FFSpecialKit_Category.framework",
+				"${BUILT_PRODUCTS_DIR}/FFToolsKit/FFToolsKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFAPIsKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFSpecialKit_Category.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFToolsKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -371,6 +398,7 @@
 				6003F59E195388D20070C39A /* FFAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* FFViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				AEF99FB322180DD60047CA57 /* CTMediator+Special.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,12 +526,15 @@
 			baseConfigurationReference = EAED72547258EFFA65296E6D /* Pods-FFSpecialKit_Category_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6XFMJ2CZ69;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FFSpecialKit_Category/FFSpecialKit_Category-Prefix.pch";
 				INFOPLIST_FILE = "FFSpecialKit_Category/FFSpecialKit_Category-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -513,12 +544,15 @@
 			baseConfigurationReference = 9A5340E507EB36C0DF89FE16 /* Pods-FFSpecialKit_Category_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6XFMJ2CZ69;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FFSpecialKit_Category/FFSpecialKit_Category-Prefix.pch";
 				INFOPLIST_FILE = "FFSpecialKit_Category/FFSpecialKit_Category-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
